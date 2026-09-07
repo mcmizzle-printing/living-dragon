@@ -6,7 +6,7 @@ Updated: 2026-09-07
 
 - GitHub repository: `mcmizzle-printing/living-dragon` (private).
 - Local checkout: `~/Printing/living-dragon`, per Kevin's location preference.
-- Kevin uses both Claude and Codex. Shared instructions are in `../AGENTS.md`; `../CLAUDE.md` imports them.
+- Kevin uses both Claude and Codex. Shared instructions live in `../.context/AGENTS.md`; root `AGENTS.md` and `CLAUDE.md` are relative symlinks to it, per Kevin's preference for a single context source.
 - The requested directory structure and starter documentation exist.
 
 ## Current state
@@ -31,3 +31,7 @@ Resolve the concept and material identity, then define one socket-and-insert tes
 ## Handoff practice
 
 Update this page when project state changes. Link detailed decisions and evidence from `../build-log/`; do not duplicate a full session transcript here. Record checks actually run and distinguish pending physical tests from completed digital checks.
+
+## Latest context update
+
+Consolidated agent instructions in `.context/AGENTS.md`. Verified both root symlinks resolve to the same file, relative Markdown links resolve, and the diff passes whitespace checks. No physical design or experiment state changed.
