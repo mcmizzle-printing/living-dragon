@@ -14,6 +14,18 @@ Project scaffold for a dragon-shaped planter with modular scale sockets and expe
 - `profiles/`: working material notes.
 - `build-log/`: dated decisions, builds, and results.
 
+## Working with Claude and Codex
+
+The local checkout lives at `~/Printing/living-dragon`.
+
+- [AGENTS.md](AGENTS.md): shared project context and working rules.
+- [CLAUDE.md](CLAUDE.md): Claude Code entry point importing the shared rules.
+- [Project status](docs/status.md): current state, open decisions, and the next proposed step.
+
+Start either tool in this repository. Keep durable decisions and handoff context in the tracked documents so work can continue across tools and sessions.
+
+The entry points follow the official [Codex AGENTS.md guidance](https://developers.openai.com/codex/guides/agents-md/) and [Claude Code shared-instruction guidance](https://code.claude.com/docs/en/memory#agentsmd).
+
 ## Getting started
 
 1. Define the concept, dimensions, plant species, and operating conditions in `docs/concept.md`.
