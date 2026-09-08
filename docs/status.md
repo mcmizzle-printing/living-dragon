@@ -9,6 +9,7 @@ Updated: 2026-09-07
 - Kevin uses both Claude and Codex. Shared instructions live in `../.context/context.md`; root `AGENTS.md` and `CLAUDE.md` are plain Markdown prompts directing each tool to read it, per Kevin's preference for a single context source and simple text entry points.
 - The requested directory structure and starter documentation exist.
 - Kevin prefers a large build and is leaning toward H2C for plate size; H2C is the provisional planning target.
+- Roughly two feet tall is an appealing working target, explicitly not a locked size.
 - Kevin designates `mcmizzle-printing/printing-toolkit` as the home for common printing tooling; Living Dragon keeps project-specific design and experiment work.
 - [Bootstrap plan](bootstrap.md) records the proposed first coupon and tooling integration sequence.
 
@@ -37,4 +38,4 @@ Update this page when project state changes. Link detailed decisions and evidenc
 
 ## Latest context update
 
-Saved Kevin's supplied concept board unchanged, replacing the transparent placeholder. Updated the concept, architecture, bootstrap plan, and shared context with the observed pose and proposed component layout. Image captions remain concept claims, not test evidence. Verified the image copy by hash, checked relative documentation links, and passed whitespace checks. No CAD or print tests were produced. Next: establish overall dimensions and the first curved insert segment.
+Recorded Kevin's tentative two-foot height preference in shared context and the concept brief. Final size remains open; including the base in assembled height is a stated planning assumption. Checked the conversion to 609.6 mm and passed whitespace checks. No geometry changed. Next: establish adjustable overall proportions and the curved three-insert prototype.

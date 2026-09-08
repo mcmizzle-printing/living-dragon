@@ -10,7 +10,7 @@ The image is a concept reference, not a photograph of a validated build. Embedde
 
 ## User direction
 
-Kevin wants a large build and is leaning toward H2C for its plate size. Final height, base footprint, wingspan, and assembly splits remain open. A small interface coupon establishes fit without limiting final size.
+Kevin wants a large build and is leaning toward H2C for its plate size. Roughly two feet tall (609.6 mm) appeals to Kevin as a working target, but he is not committed to a final size. For initial proportions, interpret height as base-to-highest-point assembled height; this convention is a planning assumption. Base footprint, wingspan, and assembly splits remain open. A small interface coupon establishes fit without limiting final size.
 
 ## Design intent interpreted from the reference
 
@@ -27,6 +27,8 @@ PETG remains the structural candidate. The board also mentions PLA; this is not 
 Consider separate base, torso, neck/head, wings, and tail sections for printing, assembly, and repair. Determine the actual splits from verified machine limits, print orientation, joints, and loaded stability. Keep the structural load path independent of experimental inserts.
 
 Begin with a curved back segment holding three removable leaf-shaped inserts. This tests the reference's visible interface more directly than a generic flat block. Specify drainage and removal access, then compare fit, seed retention, water exposure, and glow. This prototype is proposed, not yet designed or printed.
+
+Keep overall proportions adjustable. If size changes, reevaluate structural joints, stability, wall thickness, and insert clearances; do not uniformly scale a tested socket and assume the fit remains valid.
 
 ## Decisions to make
 
