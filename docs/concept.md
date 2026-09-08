@@ -2,6 +2,10 @@
 
 Working interpretation: a dragon-shaped planter whose scales use modular sockets and removable experimental inserts. Confirm this interpretation before detailed design.
 
+## User direction
+
+Kevin wants a large build and is leaning toward the H2C for its plate size. Plan around H2C provisionally; final dimensions, pose, and whether the dragon is a single piece or an assembly remain open. A small interface coupon is a proposed validation step, not a limit on final size.
+
 ## Decisions to make
 
 - Overall dimensions, pose, and intended location.

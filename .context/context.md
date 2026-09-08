@@ -9,6 +9,7 @@ Read `README.md`, `docs/status.md`, and the documents relevant to the task befor
 - Repository: `mcmizzle-printing/living-dragon` on GitHub.
 - Kevin keeps local printing projects under `~/Printing`; this checkout belongs at `~/Printing/living-dragon`. Do not create another canonical copy under Documents/Codex.
 - Working concept: a dragon planter with modular scale sockets and experimental inserts. This interpretation is provisional; consult `docs/concept.md` before detailed design.
+- Kevin prefers a large build and is leaning toward the H2C for plate size. Use H2C as the provisional planning target; ownership, installed nozzle, usable print envelope, and feed setup remain unverified. Do not infer that the whole dragon must fit on one plate.
 - The repository is currently documentation and placeholders. Never describe planned parts, tests, printer settings, or material properties as validated results.
 - PETG is a candidate structural material. The insert product is Timeplast TimeMass Glowing Plant Vitamin, identified by Kevin. Read `profiles/timemass-glowing-plant-vitamin.md` for supplier sources, conflicting instructions, and pending validation.
 

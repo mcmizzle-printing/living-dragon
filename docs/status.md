@@ -8,6 +8,7 @@ Updated: 2026-09-07
 - Local checkout: `~/Printing/living-dragon`, per Kevin's location preference.
 - Kevin uses both Claude and Codex. Shared instructions live in `../.context/context.md`; root `AGENTS.md` and `CLAUDE.md` are plain Markdown prompts directing each tool to read it, per Kevin's preference for a single context source and simple text entry points.
 - The requested directory structure and starter documentation exist.
+- Kevin prefers a large build and is leaning toward H2C for plate size; H2C is the provisional planning target.
 - Kevin designates `mcmizzle-printing/printing-toolkit` as the home for common printing tooling; Living Dragon keeps project-specific design and experiment work.
 - [Bootstrap plan](bootstrap.md) records the proposed first coupon and tooling integration sequence.
 
@@ -20,7 +21,7 @@ The dragon planter with removable scale inserts is a working interpretation of t
 ## Open decisions
 
 - Confirm the physical concept, size, pose, scale function, and first prototype scope.
-- Confirm the first printer and actual hardware; resolve the supplier profile inconsistencies recorded in the material profile.
+- Verify the proposed H2C setup: usable envelope, installed nozzle, plate, and feed path; resolve the supplier profile inconsistencies recorded in the material profile.
 - Choose plants/growth medium and define watering, drainage, and cleaning.
 - Select an editable design tool and reproducible export workflow.
 - Define socket/insert tolerances and measurable experiment acceptance criteria.
@@ -36,4 +37,4 @@ Update this page when project state changes. Link detailed decisions and evidenc
 
 ## Latest context update
 
-Identified the insert product from Kevin's supplied link. Reviewed the supplier product page and manual, updated the material profile, and removed obsolete identity questions from the shared context and design documents. Product claims remain distinct from measurements. Relative links and whitespace checks passed; no print tests were run. Next: choose the first printer and confirm its nozzle, plate, and feed path before creating a material preset.
+Recorded Kevin's preference for a large build and H2C as the provisional target in shared context, concept, and bootstrap documents. Overall dimensions and assembly strategy remain open. No hardware specifications were assumed and no print validation was performed. Documentation references and whitespace checks passed.

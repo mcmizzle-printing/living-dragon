@@ -9,9 +9,11 @@ The first proposed milestone is a small socket-and-insert coupon, not a complete
 - The insert product is now identified: see the [TimeMass profile](../profiles/timemass-glowing-plant-vitamin.md). Resolve its conflicting processing instructions and confirm the actual print hardware.
 - What the insert does: holds seeds, supports growth medium, glows, or combines these functions.
 - Approximate dragon size and scale size; how inserts are installed and removed.
-- First printer, nozzle, structural filament, and desired support strategy.
+- H2C is the provisional printer target, reflecting Kevin's preference for a large build. Verify usable print envelope, nozzle, plate, feed path, structural filament, and support strategy.
 
 Record confirmed requirements in `concept.md` and `architecture.md`. Choose a few measured clearance variants and acceptance criteria before generating the coupon. Material-dependent decisions can remain pending while tooling is set up.
+
+The final dragon size is independent of coupon size. Decide whether to use one plate or an assembly after defining the pose and verifying the selected H2C configuration. Generic H2C support needed by the checks belongs in printing-toolkit.
 
 ## 2. Establish a reproducible build
 
