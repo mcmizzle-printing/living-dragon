@@ -15,12 +15,12 @@ Updated: 2026-09-07
 
 This is a planning scaffold. There are no CAD models, STL/3MF designs, executable build tools, installed project dependencies, automated tests, or recorded physical experiments. The concept image is a transparent placeholder and the license has not been selected.
 
-The dragon planter with removable scale inserts is a working interpretation of the supplied folder layout, not a finalized design specification. PETG and Timemass are candidate material labels, not approved specifications.
+The dragon planter with removable scale inserts is a working interpretation of the supplied folder layout, not a finalized design specification. PETG remains a candidate structural material. Kevin identified the TimeMass insert product; the [material profile](../profiles/timemass-glowing-plant-vitamin.md) records supplier evidence and unresolved processing questions.
 
 ## Open decisions
 
 - Confirm the physical concept, size, pose, scale function, and first prototype scope.
-- Identify the exact Timemass product and supplier documentation.
+- Confirm the first printer and actual hardware; resolve the supplier profile inconsistencies recorded in the material profile.
 - Choose plants/growth medium and define watering, drainage, and cleaning.
 - Select an editable design tool and reproducible export workflow.
 - Define socket/insert tolerances and measurable experiment acceptance criteria.
@@ -28,7 +28,7 @@ The dragon planter with removable scale inserts is a working interpretation of t
 
 ## Suggested next step
 
-Resolve the concept and material identity, then define one socket-and-insert test coupon with dimensions and acceptance criteria before designing the complete dragon. This is a proposed sequence, not a recorded user decision.
+Confirm the concept and printing setup, then define one socket-and-insert test coupon with dimensions and acceptance criteria before designing the complete dragon. This is a proposed sequence, not a recorded user decision.
 
 ## Handoff practice
 
@@ -36,4 +36,4 @@ Update this page when project state changes. Link detailed decisions and evidenc
 
 ## Latest context update
 
-Recorded the shared-tooling boundary in `.context/context.md` and added `bootstrap.md`. Reviewed the local toolkit README, dependency manifest, tag list, and relevant command definitions. Found Python, f3d, and Bambu Studio locally; no runtime or print validation has been performed. Documentation links and whitespace checks passed. Next: identify the insert material and define the first coupon while establishing reproducible tooling.
+Identified the insert product from Kevin's supplied link. Reviewed the supplier product page and manual, updated the material profile, and removed obsolete identity questions from the shared context and design documents. Product claims remain distinct from measurements. Relative links and whitespace checks passed; no print tests were run. Next: choose the first printer and confirm its nozzle, plate, and feed path before creating a material preset.

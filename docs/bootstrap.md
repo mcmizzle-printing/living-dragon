@@ -6,7 +6,7 @@ Status: proposed implementation sequence. No environment has been created or pro
 
 The first proposed milestone is a small socket-and-insert coupon, not a complete dragon. Resolve:
 
-- What Timemass is: exact product, supplier link, intended processing, and material documentation.
+- The insert product is now identified: see the [TimeMass profile](../profiles/timemass-glowing-plant-vitamin.md). Resolve its conflicting processing instructions and confirm the actual print hardware.
 - What the insert does: holds seeds, supports growth medium, glows, or combines these functions.
 - Approximate dragon size and scale size; how inserts are installed and removed.
 - First printer, nozzle, structural filament, and desired support strategy.

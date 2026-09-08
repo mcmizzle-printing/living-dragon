@@ -6,7 +6,7 @@ Proposed components, pending design validation:
 | --- | --- | --- |
 | Dragon body | `cad/dragon/` | Structural shell and visual form |
 | Scale sockets | `cad/scale-sockets/` | Interfaces for removable scales or inserts |
-| Timemass inserts | `cad/timemass-inserts/` | Experimental insert geometry; material identity pending |
+| Timemass inserts | `cad/timemass-inserts/` | Experimental insert geometry; see the [material profile](../profiles/timemass-glowing-plant-vitamin.md) |
 | Planter | `cad/planter/` | Planting volume and water management |
 
 ## Interfaces to define

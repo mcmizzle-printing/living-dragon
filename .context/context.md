@@ -10,7 +10,7 @@ Read `README.md`, `docs/status.md`, and the documents relevant to the task befor
 - Kevin keeps local printing projects under `~/Printing`; this checkout belongs at `~/Printing/living-dragon`. Do not create another canonical copy under Documents/Codex.
 - Working concept: a dragon planter with modular scale sockets and experimental inserts. This interpretation is provisional; consult `docs/concept.md` before detailed design.
 - The repository is currently documentation and placeholders. Never describe planned parts, tests, printer settings, or material properties as validated results.
-- PETG is a candidate structural material. “Timemass glowing plant vitamin” is an unidentified working label. Exact composition, processing, and plant compatibility remain unknown.
+- PETG is a candidate structural material. The insert product is Timeplast TimeMass Glowing Plant Vitamin, identified by Kevin. Read `profiles/timemass-glowing-plant-vitamin.md` for supplier sources, conflicting instructions, and pending validation.
 
 ## Where work belongs
 

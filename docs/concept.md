@@ -8,7 +8,7 @@ Working interpretation: a dragon-shaped planter whose scales use modular sockets
 - Plant species and growth medium.
 - Role of each scale: decorative, planted, glowing, or a combination.
 - Watering, drainage, and cleaning approach.
-- Meaning and exact product identity of “Timemass.”
+- Intended behavior of the identified [TimeMass insert material](../profiles/timemass-glowing-plant-vitamin.md).
 - Measurable success criteria for appearance, retention, growth, and durability.
 
 ## Concept image
