@@ -31,7 +31,15 @@ Before promoting a part to production, document mesh integrity, dimensions, orie
 
 There is no build system, dependency manifest, or automated test suite yet. For documentation changes, check links, factual consistency, and `git diff --check`. Add runnable build and validation instructions when introducing executable geometry; do not invent commands for tooling that is not present.
 
-The organization's `printing-toolkit` repository may provide reusable geometry and validation tools. Inspect its current documentation and limitations before adoption; it is not yet a dependency of this project. Pin a version if adopted, and do not require a sibling checkout for reproducibility.
+## Shared tooling boundary
+
+Kevin designates `mcmizzle-printing/printing-toolkit` as the home for common printing tooling. Its local checkout is `~/Printing/printing-toolkit`; its remote is https://github.com/mcmizzle-printing/printing-toolkit.
+
+Reuse its existing geometry, mesh I/O, validation, rendering, and slicing tools before writing equivalents. Reusable new primitives, validators, printer support, and general utilities belong in printing-toolkit. Keep dragon geometry, project parameters, assembly logic, experiment protocols, and measurements in Living Dragon. Thin project-specific command wrappers may live here; do not copy toolkit internals into this repository.
+
+Before changing printing-toolkit, read that repository's own instructions and inspect its working tree. Validate shared changes there, follow its versioning policy, and update Living Dragon's dependency pin after the needed release exists. Do not change unrelated consumers as part of a Living Dragon task.
+
+Inspect the selected toolkit version's documentation and limitations before relying on its checks. The locally reviewed version documents a curved-overhang blind spot in `islands.py` and P2S-specific bed/slicer assumptions; a clean result does not validate curved dragon features or H2C settings. It is not yet an installed dependency here. Use a pinned release for reproducible project setup; an editable sibling install is only for deliberate toolkit development. See `docs/bootstrap.md` for the proposed first milestone.
 
 ## Working across Claude and Codex
 

@@ -8,6 +8,8 @@ Updated: 2026-09-07
 - Local checkout: `~/Printing/living-dragon`, per Kevin's location preference.
 - Kevin uses both Claude and Codex. Shared instructions live in `../.context/context.md`; root `AGENTS.md` and `CLAUDE.md` are plain Markdown prompts directing each tool to read it, per Kevin's preference for a single context source and simple text entry points.
 - The requested directory structure and starter documentation exist.
+- Kevin designates `mcmizzle-printing/printing-toolkit` as the home for common printing tooling; Living Dragon keeps project-specific design and experiment work.
+- [Bootstrap plan](bootstrap.md) records the proposed first coupon and tooling integration sequence.
 
 ## Current state
 
@@ -34,4 +36,4 @@ Update this page when project state changes. Link detailed decisions and evidenc
 
 ## Latest context update
 
-Shared instructions remain in `.context/context.md`. Replaced both root symlinks with plain Markdown prompts directing each tool to read that file. Verified regular file types, redirect targets, relative Markdown links, and whitespace checks. No physical design or experiment state changed.
+Recorded the shared-tooling boundary in `.context/context.md` and added `bootstrap.md`. Reviewed the local toolkit README, dependency manifest, tag list, and relevant command definitions. Found Python, f3d, and Bambu Studio locally; no runtime or print validation has been performed. Documentation links and whitespace checks passed. Next: identify the insert material and define the first coupon while establishing reproducible tooling.

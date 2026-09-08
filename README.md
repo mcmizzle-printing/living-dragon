@@ -28,6 +28,8 @@ The entry points follow the official [Codex AGENTS.md guidance](https://develope
 
 ## Getting started
 
+See the [bootstrap plan](docs/bootstrap.md) for the first prototype and integration with [printing-toolkit](https://github.com/mcmizzle-printing/printing-toolkit), where common tooling belongs.
+
 1. Define the concept, dimensions, plant species, and operating conditions in `docs/concept.md`.
 2. Identify the exact materials and review supplier documentation.
 3. Design and test individual sockets and inserts before assembling a complete planter.
