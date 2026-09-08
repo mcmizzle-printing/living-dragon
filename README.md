@@ -19,7 +19,7 @@ Project scaffold for a dragon-shaped planter with modular scale sockets and expe
 The local checkout lives at `~/Printing/living-dragon`.
 
 - [.context/AGENTS.md](.context/AGENTS.md): the single shared context file; edit project instructions here.
-- [AGENTS.md](AGENTS.md) and [CLAUDE.md](CLAUDE.md): relative symlinks to that same file for Codex and Claude Code.
+- [AGENTS.md](AGENTS.md) and [CLAUDE.md](CLAUDE.md): short Markdown prompts directing Codex and Claude Code to read that same file.
 - [Project status](docs/status.md): current state, open decisions, and the next proposed step.
 
 Start either tool in this repository. Keep durable decisions and handoff context in the tracked documents so work can continue across tools and sessions.
