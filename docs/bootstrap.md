@@ -4,11 +4,11 @@ Status: proposed implementation sequence. No environment has been created or pro
 
 ## 1. Define one prototype
 
-The first proposed milestone is a small socket-and-insert coupon, not a complete dragon. Resolve:
+The first proposed milestone is a curved back segment with three removable leaf-shaped inserts, based on the [supplied concept board](concept.md). Resolve:
 
 - The insert product is now identified: see the [TimeMass profile](../profiles/timemass-glowing-plant-vitamin.md). Resolve its conflicting processing instructions and confirm the actual print hardware.
 - What the insert does: holds seeds, supports growth medium, glows, or combines these functions.
-- Approximate dragon size and scale size; how inserts are installed and removed.
+- Overall height, wingspan, footprint, and scale size for the upright winged pose; how inserts are installed and removed.
 - H2C is the provisional printer target, reflecting Kevin's preference for a large build. Verify usable print envelope, nozzle, plate, feed path, structural filament, and support strategy.
 
 Record confirmed requirements in `concept.md` and `architecture.md`. Choose a few measured clearance variants and acceptance criteria before generating the coupon. Material-dependent decisions can remain pending while tooling is set up.
@@ -21,7 +21,7 @@ Use a local `.venv` and declare a pinned printing-toolkit release in the project
 
 Python, `f3d`, and `/Applications/BambuStudio.app` were found locally during bootstrap review. Presence does not establish runtime compatibility; verify them with the first end-to-end build.
 
-Prefer a Python generator for the initial mechanical coupon using suitable toolkit primitives. Keep its editable source under `cad/`, make dimensions explicit in millimeters, and export to `stl/prototypes/`. Record exact generation and verification commands once implemented. Defer the full dragon's organic modeling approach until the shape is defined.
+Prefer a Python generator for the initial mechanical coupon using suitable toolkit primitives. Keep its editable source under `cad/`, make dimensions explicit in millimeters, and export to `stl/prototypes/`. Record exact generation and verification commands once implemented. Select the full dragon's organic modeling workflow against the supplied visual reference; the mechanical coupon does not establish the sculpting workflow.
 
 ## 3. Reuse and improve printing-toolkit
 

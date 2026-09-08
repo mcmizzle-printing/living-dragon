@@ -8,7 +8,7 @@ Read `README.md`, `docs/status.md`, and the documents relevant to the task befor
 
 - Repository: `mcmizzle-printing/living-dragon` on GitHub.
 - Kevin keeps local printing projects under `~/Printing`; this checkout belongs at `~/Printing/living-dragon`. Do not create another canonical copy under Documents/Codex.
-- Working concept: a dragon planter with modular scale sockets and experimental inserts. This interpretation is provisional; consult `docs/concept.md` before detailed design.
+- Visual direction: Kevin supplied `docs/images/living-dragon-concept.png`, showing an upright winged dragon with an arched neck, curled tail, planted rocky base, and replaceable leaf-shaped dorsal inserts. Read `docs/concept.md` for design intent and unresolved engineering decisions.
 - Kevin prefers a large build and is leaning toward the H2C for plate size. Use H2C as the provisional planning target; ownership, installed nozzle, usable print envelope, and feed setup remain unverified. Do not infer that the whole dragon must fit on one plate.
 - The repository is currently documentation and placeholders. Never describe planned parts, tests, printer settings, or material properties as validated results.
 - PETG is a candidate structural material. The insert product is Timeplast TimeMass Glowing Plant Vitamin, identified by Kevin. Read `profiles/timemass-glowing-plant-vitamin.md` for supplier sources, conflicting instructions, and pending validation.
@@ -50,4 +50,4 @@ After meaningful work, update status with what changed, validation performed, re
 
 If both tools work concurrently, use separate branches/worktrees under `~/Printing` and coordinate ownership of files. Do not overwrite another session's edits. Before committing, review the diff and stage only the task's files. Follow the user's requested commit/push scope, preserve repository visibility, and never force-push as a routine step.
 
-The license is undecided and the concept PNG is a transparent placeholder. Do not silently choose a license or present the placeholder as finished artwork.
+The license is undecided. The concept PNG is Kevin's supplied visual reference; its captions and growth timeline are not validated performance evidence. Do not silently choose a license or turn image annotations into established engineering facts.

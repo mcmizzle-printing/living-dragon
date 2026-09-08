@@ -14,22 +14,22 @@ Updated: 2026-09-07
 
 ## Current state
 
-This is a planning scaffold. There are no CAD models, STL/3MF designs, executable build tools, installed project dependencies, automated tests, or recorded physical experiments. The concept image is a transparent placeholder and the license has not been selected.
+This is a planning scaffold. There are no CAD models, STL/3MF designs, executable build tools, installed project dependencies, automated tests, or recorded physical experiments. Kevin's concept board is saved in `images/living-dragon-concept.png`; the license has not been selected.
 
-The dragon planter with removable scale inserts is a working interpretation of the supplied folder layout, not a finalized design specification. PETG remains a candidate structural material. Kevin identified the TimeMass insert product; the [material profile](../profiles/timemass-glowing-plant-vitamin.md) records supplier evidence and unresolved processing questions.
+The visual direction is an upright winged dragon with an arched neck, curled tail, planted base, and replaceable dorsal inserts; see [concept](concept.md). Engineering dimensions and assembly remain unresolved. PETG remains a candidate structural material. Kevin identified the TimeMass insert product; the [material profile](../profiles/timemass-glowing-plant-vitamin.md) records supplier evidence and unresolved processing questions.
 
 ## Open decisions
 
-- Confirm the physical concept, size, pose, scale function, and first prototype scope.
+- Set height, wingspan, footprint, and section boundaries for the supplied pose; define the curved three-insert prototype.
 - Verify the proposed H2C setup: usable envelope, installed nozzle, plate, and feed path; resolve the supplier profile inconsistencies recorded in the material profile.
 - Choose plants/growth medium and define watering, drainage, and cleaning.
 - Select an editable design tool and reproducible export workflow.
 - Define socket/insert tolerances and measurable experiment acceptance criteria.
-- Replace the image placeholder and select license terms when appropriate.
+- Select license terms when appropriate.
 
 ## Suggested next step
 
-Confirm the concept and printing setup, then define one socket-and-insert test coupon with dimensions and acceptance criteria before designing the complete dragon. This is a proposed sequence, not a recorded user decision.
+Set the overall size and printing setup, then define a curved back segment with three insert sockets and measurable acceptance criteria. This is a proposed sequence, not a recorded user decision.
 
 ## Handoff practice
 
@@ -37,4 +37,4 @@ Update this page when project state changes. Link detailed decisions and evidenc
 
 ## Latest context update
 
-Recorded Kevin's preference for a large build and H2C as the provisional target in shared context, concept, and bootstrap documents. Overall dimensions and assembly strategy remain open. No hardware specifications were assumed and no print validation was performed. Documentation references and whitespace checks passed.
+Saved Kevin's supplied concept board unchanged, replacing the transparent placeholder. Updated the concept, architecture, bootstrap plan, and shared context with the observed pose and proposed component layout. Image captions remain concept claims, not test evidence. Verified the image copy by hash, checked relative documentation links, and passed whitespace checks. No CAD or print tests were produced. Next: establish overall dimensions and the first curved insert segment.

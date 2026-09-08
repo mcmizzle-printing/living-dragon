@@ -35,7 +35,7 @@ See the [bootstrap plan](docs/bootstrap.md) for the first prototype and integrat
 3. Design and test individual sockets and inserts before assembling a complete planter.
 4. Record prototype revisions and results in the build log.
 
-`docs/images/living-dragon-concept.png` is a transparent placeholder, not a concept rendering. Empty design and experiment directories contain `.gitkeep` files so Git can preserve them.
+The [concept brief](docs/concept.md) includes Kevin's supplied dragon reference image; its illustrated growth and glow are design intent, not test results. Empty design and experiment directories contain `.gitkeep` files so Git can preserve them.
 
 ## License
 
