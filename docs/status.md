@@ -6,7 +6,7 @@ Updated: 2026-09-07
 
 - GitHub repository: `mcmizzle-printing/living-dragon` (private).
 - Local checkout: `~/Printing/living-dragon`, per Kevin's location preference.
-- Kevin uses both Claude and Codex. Shared instructions live in `../.context/AGENTS.md`; root `AGENTS.md` and `CLAUDE.md` are plain Markdown prompts directing each tool to read it, per Kevin's preference for a single context source and simple text entry points.
+- Kevin uses both Claude and Codex. Shared instructions live in `../.context/context.md`; root `AGENTS.md` and `CLAUDE.md` are plain Markdown prompts directing each tool to read it, per Kevin's preference for a single context source and simple text entry points.
 - The requested directory structure and starter documentation exist.
 
 ## Current state
@@ -34,4 +34,4 @@ Update this page when project state changes. Link detailed decisions and evidenc
 
 ## Latest context update
 
-Shared instructions remain in `.context/AGENTS.md`. Replaced both root symlinks with plain Markdown prompts directing each tool to read that file. Verified regular file types, redirect targets, relative Markdown links, and whitespace checks. No physical design or experiment state changed.
+Shared instructions remain in `.context/context.md`. Replaced both root symlinks with plain Markdown prompts directing each tool to read that file. Verified regular file types, redirect targets, relative Markdown links, and whitespace checks. No physical design or experiment state changed.

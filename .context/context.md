@@ -2,7 +2,7 @@
 
 ## Start here
 
-Read `README.md`, `docs/status.md`, and the documents relevant to the task before editing. Check `git status --short --branch` and recent commits; preserve work from the user or another agent. These instructions live in `.context/AGENTS.md`. Root `AGENTS.md` and `CLAUDE.md` are short Markdown instructions directing each tool to read this single file. All project paths below are relative to the repository root unless explicitly stated otherwise.
+Read `README.md`, `docs/status.md`, and the documents relevant to the task before editing. Check `git status --short --branch` and recent commits; preserve work from the user or another agent. These instructions live in `.context/context.md`. Root `AGENTS.md` and `CLAUDE.md` are short Markdown instructions directing each tool to read this single file. All project paths below are relative to the repository root unless explicitly stated otherwise.
 
 ## Project and location
 
@@ -35,7 +35,7 @@ The organization's `printing-toolkit` repository may provide reusable geometry a
 
 ## Working across Claude and Codex
 
-Keep shared rules in `.context/AGENTS.md`; keep root `AGENTS.md` and `CLAUDE.md` as plain Markdown prompts directing each tool here. Edit shared context in this file and avoid duplicating it in the entry points. Put changing project state in `docs/status.md`, and detailed evidence or decisions in dated build-log entries. Do not rely on a chat transcript or one tool's private memory for project-critical facts.
+Keep shared rules in `.context/context.md`; keep root `AGENTS.md` and `CLAUDE.md` as plain Markdown prompts directing each tool here. Edit shared context in this file and avoid duplicating it in the entry points. Put changing project state in `docs/status.md`, and detailed evidence or decisions in dated build-log entries. Do not rely on a chat transcript or one tool's private memory for project-critical facts.
 
 After meaningful work, update status with what changed, validation performed, remaining uncertainties, and the next concrete step. Keep untested proposals clearly labeled. Record user decisions separately from agent assumptions.
 
